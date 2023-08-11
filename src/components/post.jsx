@@ -1,9 +1,12 @@
+import Card from "./Card";
+
 const Post = () => {
     return (
         <div>
             this is a new post
-            Changing Here
-            
+            <Card/>
+
+
         </div>
     )
 }
