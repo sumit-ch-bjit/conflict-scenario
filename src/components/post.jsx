@@ -1,11 +1,12 @@
 import Card from "./Card";
+import View from "./View";
 
 const Post = () => {
     return (
         <div>
             this is a new post
-            <Card/>
-
+            <Card props="hiddenInfo"/>
+            <View/>
 
         </div>
     )
